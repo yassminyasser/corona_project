@@ -1,0 +1,259 @@
+@import './base.css';
+
+
+
+
+
+/* navbar Page */
+.head{
+    background-image: url("../assets/imgs/shape-a.png");
+}
+.container{
+    position: relative;
+}
+.nav{
+    position: fixed;
+    z-index: 9;
+    background-color: #2B3467;
+}
+.nv{
+    width: 89%;
+}
+.buttn{
+    
+    background-color:dodgerblue;
+    color: aliceblue;
+    border-color: dodgerblue;
+    border-radius: 30px;
+    text-decoration: none;
+    
+}
+.butn{
+    background-color:dodgerblue;
+    color: aliceblue;
+    border-color: dodgerblue;
+    border-radius: 30px;
+    
+    
+}
+.tolink{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+.edit{
+    color:darkgray;
+    font-weight: bold;
+}
+.edit1{
+    color:darkgray;
+    font-size:small;
+}
+.content img{
+    position: absolute;
+    width:100%;
+    height:134px;
+}
+/* End of navbar */
+/*---------------------------------*/
+/* About Page */
+.corona_text{
+color:#2B3467;
+
+font-weight:bold;
+}
+.para{
+font-weight: bold;
+}
+.big_table {
+    border: 1px solid;
+    color:dodgerblue;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+  }
+  .first_table_row{
+    border: 1px solid dodgerblue;
+    padding: 20px;
+    margin: 20px;
+    color:black;
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  /*end of about */
+  /*--------------------*/
+  /*spread page */
+  .text{
+    color:dodgerblue;
+    font-weight: bold;
+  }
+  .text2{
+    color:#2B3467;
+    font-weight:bold;
+  }
+  .card-title{
+    color:dodgerblue;
+  }
+  .btn{
+
+    display: block;
+    width: 270px; 
+    margin: auto;
+    border-radius: 20px;
+  }
+.card{
+    margin: 30px 70px;
+}
+.card-img-top{
+    box-shadow: 0px 10px dodgerblue;
+}
+/*-------------------------*/
+/*symptoms page*/
+.card-img-top-1{
+    position: absolute;
+    width:28%;
+    right:-1%;
+    top: -11%;
+    border-radius: 50%;
+    z-index: 9;
+    box-shadow: 5px 5px 5px 4px lightblue;
+}
+.contentt{
+    padding: 29px 128px;
+}
+/* end of symptoms page */
+/* ------------------------------------*/
+/* prevention page*/
+.second_row{
+    padding-top: 15px;
+}
+.card-img-top-2{
+    width:40%;
+    border-radius:50%;
+    right:-4%;
+}
+.card-title-1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}  
+.btn2{
+  background-color: dodgerblue;
+  color:white;
+  text-decoration: none;
+}
+
+/*--------------------*/
+/* sidenav  */
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: dodgerblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+   
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+   
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  /*-------*/
+  /* treatment */
+  .content3{
+    background-image: url('../assets/imgs/shape-a.png');
+    background-color: cornflowerblue;
+    color: white;
+    margin: 50px;
+    padding: 25px;
+  }
+  .sidebarr{
+    background-color:#2B3467;
+    opacity: 0.5;
+  }
+/*--------------
+/* news */
+.card-img-top-3{
+  border-radius: 15px;
+  margin-top: 10px;
+}
+:hover.card{
+  background-color:mintcream;
+}
+/*---------*/
+/* faq */
+.item{
+ list-style-type:none;
+ background-color: white;
+ padding: 15px;
+ margin:10px;
+ border-radius: 15px;
+}
+:hover.item{
+  background-color: dodgerblue;
+  border: 1px solid #2B3467;
+}
+
+.ii{
+  background-color:dodgerblue;
+ 
+}
+/*--------------*/
+/* footer */
+.footer{
+  background-image: url('../assets/imgs/shape-a.png');
+  background-color: #2B3467;
+  color:white;
+}
+.social-links{
+  text-decoration: none;
+  background-color:cornflowerblue;
+  color: white;
+  padding: 15px; 
+  margin: 15px;
+}
+.social-links-1{
+  text-decoration: none;
+  background-color:deepskyblue;
+  color: white;
+  padding: 15px; 
+  margin: 15px;
+}
+.social-links-2{
+  text-decoration: none;
+  background-color:red;
+  color: white;
+  padding: 15px; 
+  margin: 15px;
+}
